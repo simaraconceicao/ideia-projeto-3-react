@@ -4,14 +4,14 @@ import './menu.css'
 const Menu = () =>{
   return(
     <ul className="menu">
-      <li className='item'>
+      {/* <li className='item'>
         <Link className="link" to="/">Home</Link>
       </li>
       <li className='item'>
         <Link  className="link" to="/about">Sobre</Link>
-      </li>
+      </li> */}
       <li className='item'>
-        <Link className="link" to="/projects">Projetos</Link>
+        <Link className="link" to="/">Projetos</Link>
       </li>
       <li className='item'>
         <Link className="link" to="/comentarios">Comentários</Link>

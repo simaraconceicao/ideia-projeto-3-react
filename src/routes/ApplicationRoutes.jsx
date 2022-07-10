@@ -12,8 +12,8 @@ function ApplicationRoutes() {
     <BrowserRouter>
      <Menu/>
       <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="projects" element={<Projects />} />
+        {/* <Route path="/" element={<About />} /> */}
+        <Route path="/" element={<Projects />} />
         <Route path="comentarios" element={<List />} />
       </Routes>
       <Footer />
