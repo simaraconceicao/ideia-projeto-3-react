@@ -57,24 +57,19 @@ main {
 
 .list-items {
   list-style: none;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .list-items > li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px;
+  margin: 0 auto;
   border-bottom: 0.7px solid #7e7d7d;
-  padding: 1rem 0;
-  width: 75%;
+  width: 60%;
 }
   
-main .list-items > li > div .list-items > li{
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  outline: 0;
-}
 
 .list-items li div p {
   font-size: 1.3em;
